@@ -4,6 +4,10 @@ FactoryBot.define do
     bio            { Faker::RickAndMorty.quote }
     user           { FactoryBot.create(:user) }
     breed          { Faker::Cat.breed }
-    profile_public false
+
+    trait :suphalak do
+      breed "Suphalak"
+    end
   end
 end
+
