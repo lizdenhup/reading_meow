@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :cat do
     name "MyString"
-    bio "MyText"
-    user nil
+    breed "MyString"
+    bio "MyString"
   end
 end
